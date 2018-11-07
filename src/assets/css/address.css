@@ -1,0 +1,11 @@
+.address-box {
+  width: 100%;
+  background: url(../images/checkout/location-border.png) center bottom repeat-x;
+  background-size: 80px 4px; }
+  .address-box .no-address {
+    display: block;
+    padding: 20px 10px;
+    text-align: center;
+    color: #666; }
+
+/*# sourceMappingURL=address.css.map */

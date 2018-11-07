@@ -1,0 +1,107 @@
+
+.edit-address{
+    .commp{
+        padding: 0 30px;
+        height: 80px;
+        line-height: 80px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        font-size:28px;
+        span{
+            width:29%;
+        }
+        input{
+            width:75%;
+            font-size:28px;
+        }
+        .city-select{
+            width:75%;
+            display: flex;
+            align-items: center;
+            select{
+                display: block;
+                flex:1;
+                width:33%;
+                margin-right:10px;
+                border: 1px #ccc solid;
+                height:50px;
+                font-size:24px;
+                option{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .set-default{
+        height:80px;
+        justify-content: space-between;
+        .switch{text-align: right;display:block;text-align: right}
+    }
+    .save-address{
+        display: block;
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        color: #fff;
+        background: #e99415;
+    }
+}
+.address-manage-box{
+    width:100%;
+    font-size:28px;
+    position: absolute;
+    top:0;
+    bottom:200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    li{
+        padding:40px;
+        border-bottom:1px solid #efefef;
+        .user-infor{
+            display: flex;
+            justify-content: space-between;
+        }
+        .address-manage{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .default-btn{
+                padding-left:40px;
+                height: 60px;
+                line-height: 60px;
+                background: url(../images/cart/no-checked.png) left center no-repeat;
+                background-size:30px 30px;
+            }
+            .checked{
+                color: #ff5000;
+                background: url(../images/cart/pro-checked.png) left center no-repeat;
+                background-size:30px 30px;
+            }
+            .edits-address{
+                color: #000;
+                background: url(../images/address/edit.png) left center no-repeat;
+                background-size:30px 30px;
+                padding-left:40px;
+            }
+            .del-address{
+                color: #000;
+                background: url(../images/address/del-address.png) left center no-repeat;
+                background-size: 55px 55px;
+                padding-left: 60px;
+            }
+        }
+    }
+}
+.add-address{
+    position: absolute;
+    bottom:100px;
+    font-size: 30px;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    background: #ea8647;
+    text-align: center;
+}

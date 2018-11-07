@@ -1,0 +1,180 @@
+.address-box{
+    width:100%;
+
+    background: url(../images/checkout/location-border.png) center bottom repeat-x;
+    background-size:80px 4px ;
+    .no-address{
+        display: block;
+        padding:20px 10px;
+        text-align: center;
+        color:#666;
+    }
+    #addr-box{
+        padding:10px 30px 20px 50px;
+        a{
+            color:#000;
+        }
+        .consignee{
+            display: flex;
+            justify-content: space-between;
+            line-height:60px;
+        }
+        .consignee-dres{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            i{
+                position: absolute;
+                left: 10px;
+                width:30px;
+                height: 30px;
+                background: url(../images/checkout/location.png) left center no-repeat;
+                background-size: 100% 100%;
+            }
+            .address{
+                width:88%;
+                text-align: justify;
+                color:#999;
+            }
+            .arrow-right{
+                width: 30px;
+                height: 30px;
+                background: url(../images/checkout/arrow-right.png) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+
+}
+.pro-list-box{
+    padding:20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .pro-list{
+        ul{
+            display: flex;
+            li{
+                border: 1px solid #b9b8b7;
+                width: 100px;
+                height: 100px;
+                margin-right: 10px;
+                padding: 10px;
+                img{
+                    width:100%
+                }
+            }
+        }
+    }
+    .all-pro{
+        background: url(../images/checkout/up.png) -20px center no-repeat;
+        background-size: 30px 30px;
+    }
+}
+
+.common-h{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    line-height: 90px;
+    margin-right:30px;
+    background: url(../images/checkout/right.png) right center no-repeat;
+    background-size: 30px 30px;
+}
+.send-box{
+    background: rgb(246, 246, 246);
+    li{
+        display: flex;
+        justify-content: space-between;
+        height:60px;
+        line-height:60px;
+        .send-r{
+            width:150px;
+            text-align: center;
+            height: 100%;
+            background: url(../images/checkout/no-checked.png) center center no-repeat;
+            background-size: 30px 30px;
+        }
+        .checked{
+            width:150px;
+            text-align: center;
+            height: 100%;
+            background: url(../images/checkout/radio-check.png) center center no-repeat;
+            background-size: 40px 40px;
+        }
+    }
+}
+.payMethod_box{
+    .title{
+        display: flex;
+        justify-content: space-between;
+        height:50px;
+        line-height:50px;
+        border-bottom: 1px solid #EBEBEB;
+        padding: 0 10px;
+        h3{
+            font-size:22px;
+        }
+        .close{
+            position: relative;
+
+
+        }
+        .close:before{
+            position: absolute;
+            left: -14px;
+            top: 13px;
+            content: '';
+            width: 30px;
+            height: 2px;
+            background-color: rgba(0,0,0,.3);
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            //border-radius: 3px;
+        }
+       .close:after{
+           position: absolute;
+           left: -14px;
+           top: 13px;
+           content: '';
+           width: 30px;
+           height: 2px;
+           background-color: rgba(0,0,0,.3);
+           transform: rotate(-45deg);
+           -webkit-transform: rotate(-45deg);
+           //border-radius: 3px;
+       }
+    }
+    .coupons{
+        li{
+            display: flex;
+            height: 0.6rem;
+            line-height: 0.6rem;
+            justify-content: space-between;
+            .send-l{
+
+            }
+            .send-r{
+                width:150px;
+                text-align: center;
+                height: 100%;
+                background: url(../images/checkout/no-checked.png) center center no-repeat;
+                background-size: 30px 30px;
+            }
+            .checked{
+                width:150px;
+                text-align: center;
+                height: 100%;
+                background: url(../images/checkout/radio-check.png) center center no-repeat;
+                background-size: 40px 40px;
+            }
+        }
+    }
+}
+
+
+.mint-msgbox-btns{display: none}
+.mint-msgbox-content{border:0}
+.modal-card-foot{display: none}
+

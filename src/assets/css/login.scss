@@ -1,0 +1,90 @@
+//快捷登陆
+.login-quick{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 30px;
+}
+
+
+.login-methods{
+    background: #efefef;
+    label{
+        background: #fff;
+        padding:0 60px;
+        height:100px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        input{
+            flex:1;
+            height:80px;
+            line-height: 80px;
+            font-size: 26px;
+        }
+        .visible-status{
+            width:0.35rem;
+            height:0.35rem;
+            background: url(../images/login/inviesible.png) left center no-repeat;
+            background-size: 100% 100%;
+        }
+        .invisible{
+            width:0.35rem;
+            height:0.35rem;
+            background: url(../images/login/visible.png) left center no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .Code-box{
+        input{
+            width:65%;
+        }
+       .getCode{
+           padding:15px 30px;
+           background: #013e8e;
+           color:#fff;
+           font-size:22px;
+           border-radius: 6px;
+       }
+    }
+    .commonBtn{
+        background: #013e8e;
+        margin:30px 60px;
+        height:70px;
+        line-height:70px;
+        text-align: center;
+        color:#fff;
+        border-radius:6px;
+        a{color:#fff}
+    }
+    .login-nav{
+        margin:0 60px;
+        display: flex;
+        justify-content: space-between;
+        a{color:#004199;}
+    }
+
+}
+
+/*合作方式登录*/
+.cooperative{
+    text-align: center;
+    margin:0 150px;
+    p{
+        padding:35px 0;
+    }
+    .login-mode{
+        display: flex;
+        justify-content:space-around;
+        a{
+            flex-grow: 1;
+
+           img{
+               width:100px;
+               height:100px
+           }
+        }
+    }
+}
+
+

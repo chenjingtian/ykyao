@@ -1,0 +1,44 @@
+.box{
+
+    padding:35px 26px;
+    background: #000;
+    box-sizing: border-box;
+    .input-w{
+        width:100%;
+        height:50px;
+        line-height:50px;
+        background: #fff;
+        border-radius: 5px;
+        text-indent: 20px;
+        font-size:30px;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            width:30%;
+            margin-top:20px;
+            height:50px;
+            line-height:50px;
+            border:1px solid #ebeff1;
+            color:#fff;
+            text-align: center;
+        }
+        .active{
+            background: #f25644;
+        }
+    }
+    .tips{
+        margin:20px 0;
+    }
+    .recharge{
+        height:80px;
+        line-height:80px;
+        background: #df5a5a;
+        border:1px solid #fff;
+        margin-bottom: 16px;
+        text-align: center;
+        color:#fff;
+    }
+}

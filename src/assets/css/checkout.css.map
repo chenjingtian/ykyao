@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACP,OAAO,EAAC,SAAS;EACjB,UAAU,EAAE,MAAM",
+"sources": ["checkout.scss"],
+"names": [],
+"file": "checkout.css"
+}

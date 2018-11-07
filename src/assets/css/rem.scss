@@ -1,0 +1,19 @@
+//// REM Transition
+//$em-base: 75px !default;
+//
+//@function strip-units($value) {
+//  @return ($value / ($value * 0 + 1));
+//}
+//
+//@function $value) {
+//  @if not unitless($value) {
+//    $value: strip-units($value);
+//  }
+//
+//  $base: $em-base;
+//  @if not unitless($base) {
+//    $base: strip-units($base);
+//  }
+//
+//  @return ($value / $base) * 1rem;
+//}

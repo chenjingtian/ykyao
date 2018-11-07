@@ -1,0 +1,41 @@
+
+.footer-nav{
+    position: absolute;
+
+    left:0;
+    right:0;
+    bottom:0;
+    padding:10px;
+    background: #fff;
+    .footer-zx{
+        position: absolute;
+        background: #397af4;
+        left: 43.2%;
+        top:-2px;
+        width:100px;
+        height:100px;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 24px;
+        padding:10px;
+        text-align: center;
+        box-sizing: border-box;
+        img{
+            width:68%;
+        }
+    }
+    ul{
+        display: flex;
+        text-align: center;
+        li{
+            width:23%;
+            a{
+                color:#3e3a39;
+                img{
+                    width:42px
+                }
+            }
+        }
+        li:nth-of-type(2){margin-right:20%}
+    }
+}

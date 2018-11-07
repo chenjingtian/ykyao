@@ -1,0 +1,135 @@
+
+.content-box{
+    width:100%;
+    position: absolute;
+    top:100px;
+    bottom:150px;
+    overflow: auto;
+}
+///*banner*/
+.banner{
+    position: relative;
+    overflow: hidden;
+    height:300px;
+    img{
+        height:100%;
+    }
+    .mint-swipe-indicators{
+        .mint-swipe-indicator{
+            width:18px;
+            height:18px;
+        }
+        .is-active{
+            background: blue;
+            opacity: 1;
+        }
+    }
+}
+
+/*导航*/
+.index-nav{
+  margin-top:20px;background: #fff;padding-top:10px;
+  ul{
+    display: flex;
+    flex-wrap:wrap;
+    li{
+        display: flex;
+      width:25%;
+        justify-content: center;
+      margin-bottom: 16px;
+      a{
+        color:#595758;display: block;text-align: center
+      }
+      img{
+        $width:97px;
+        width:$width;height:$width;
+      }
+      span{
+        display: block;font-size:21px;
+
+      }
+    }
+  }
+}
+
+
+/*活动*/
+.goods-list{
+  padding:20px 0 0 0;background: #efeeef;
+  ul{
+    display: flex;
+    margin-left:2%;
+    li{
+      //flex-grow:1;
+      width:48%;
+      margin-right:2%;
+      img{
+        $width:100%;
+        width:$width;height:$width;display: block
+      }
+    }
+  }
+
+}
+
+.module-box2 li{margin-bottom:20px;}
+
+/******猜你喜欢******/
+.guess-like{
+  width:100%;color:#3e3a3b;
+    margin-bottom: 150px;
+  .guess-title {
+    width: 100%;
+    height: 85px;
+    background: url(../images/index/guess-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    img{vertical-align: bottom;width:40px;height:40px;margin-top: 15px}
+    span{vertical-align: bottom;}
+  }
+}
+
+.like-pro-list{
+  border-top: 1px solid #ddd;
+  .goods_box{
+    display: flex;
+    flex-wrap:wrap;
+    .goods_item{
+      width:50%;
+      padding:10px 34px 20px 34px;box-sizing:border-box;
+      img{
+        width:100%;
+      }
+      .pro-name{
+        font-family: '宋体';line-height: 31px;height:31px;overflow: hidden;text-overflow: ellipsis;white-space:nowrap;
+        font-size:26px
+      }
+      .pro-price{height:40px;line-height:40px};
+        .now-price{color:#eb000d;font-weight:bold;}
+        .old-price{text-decoration: line-through;color:#868686;}
+      }
+    }
+    .goods_item:nth-of-type(n) {border-right:1px solid #ddd;border-bottom: 1px solid #ddd}
+  }
+
+
+/*加载更多*/
+.loading-more{
+  color:#999;height:80px;line-height:80px;text-align: center;padding-bottom: 170px;text-align: center;
+  display: flex;
+  justify-content: center;
+  img{width:80px;height:80px;text-align: center;align-items:flex-start}
+  span{align-items:flex-start}
+}
+
+.nav_box{
+  ul{
+    display: flex;
+    flex-wrap:wrap;
+    li{
+      flex-grow:1;
+      text-align: center;
+
+    }
+  }
+}
